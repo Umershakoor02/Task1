@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(232, 225, 223);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: grey;
+}
+
+.btn{
+    transition: all 250ms ease;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: auto;
+    border-radius: 1rem;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-color-1, .btn-color-2{
+    border: rgb(53,53,53) 0.1rem solid;
+}
+
+.btn-color-1:hover, .btn-color-2:hover{
+    cursor: pointer;;
+}
+
+.btn-color-1, .btn-color-2:hover{
+    background: rgb(53,53,53);
+    color: white;
+}
+
+.btn-color-1:hover{
+    background: rgb(0,0,0);
+}
+
+.btn-color-2{
+    background: none;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background-color: rgb(43, 43, 43);
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    color: rgb(232, 205, 205);
+    text-decoration: none;
+    text-decoration-color: wheat;
+}
+
+a:hover{
+    color: darkgrey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: antiquewhite;
+}
+
+.logo{
+    font-size: 3rem;
+    color: rgb(232, 205, 205);
+    font-weight: 600;
+}
+
+.logo:hover{
+    cursur: default;
+}
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.pic-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+.pic-container img{
+    border-radius: 30px;
+}
+
+.sec-text{
+    align-self: center;
+    text-align: center;
+}
+
+.sec-text p{
+    font-weight: 600;
+}
+
+.sec-text-p1{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.sec-text-p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
